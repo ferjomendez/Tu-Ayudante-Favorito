@@ -4,17 +4,17 @@ Es el proceso de encontrar y corregir errores en tu código o circuito. En el ta
 
 ### Tipos de errores
 
-**Errores de compilación** — El código no sube a la placa.
+**Errores de compilación**: El código no sube a la placa.
 - Aparecen en rojo en la consola de Arduino IDE.
 - Son los más fáciles: la IA los resuelve bien si le copias el error exacto.
 
-**Errores de ejecución** — El código sube pero no hace lo esperado.
+**Errores de ejecución**: El código sube pero no hace lo esperado.
 - El sensor devuelve 0 o NaN.
 - El WiFi no conecta.
 - El dato llega mal al servidor.
 - Estos requieren que uses el Serial Monitor como tu mejor herramienta.
 
-**Errores de hardware** — Todo está bien en el código pero algo físico falla.
+**Errores de hardware**: Todo está bien en el código pero algo físico falla.
 - Cable suelto, pin equivocado, componente dañado, alimentación insuficiente.
 - La IA no puede detectar estos. Tú debes revisar.
 
@@ -37,9 +37,9 @@ if (isnan(temp)) {
 
 ### Proceso de debugging con IA
 
-1. **Reproduce el error** — Asegúrate de que el error ocurre consistentemente.
-2. **Aísla el problema** — ¿Es de código, de conexión, o de lógica? Comenta secciones del código para encontrar cuál falla.
-3. **Recopila información** — Abre el Serial Monitor, copia la salida.
+1. **Reproduce el error**: Asegúrate de que el error ocurre consistentemente.
+2. **Aísla el problema**: ¿Es de código, de conexión, o de lógica? Comenta secciones del código para encontrar cuál falla.
+3. **Recopila información**: Abre el Serial Monitor, copia la salida.
 4. **Pregúntale a la IA con contexto:**
 
 "Mi ESP32 compila y sube bien pero el serial muestra:
@@ -49,7 +49,7 @@ ERROR: Timeout de conexión
 \`\`\`
 Estoy usando WiFi.begin('MiRed', '12345'). La red es de 2.4GHz y el ESP32 está a 2 metros del router. ¿Qué puede estar fallando?"
 
-5. **Prueba la solución** — No apliques todo lo que dice la IA a ciegas. Cambia una cosa a la vez y verifica.
+5. **Prueba la solución**: No apliques todo lo que dice la IA a ciegas. Cambia una cosa a la vez y verifica.
 
 ### Errores comunes en el taller
 

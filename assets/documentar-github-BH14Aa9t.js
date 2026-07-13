@@ -1,6 +1,6 @@
 const e=`### ¿Por qué GitHub?
 
-Porque tu código debe estar versionado (si algo se rompe, puedes volver atrás) y documentado (para que otros — incluido tu yo del futuro — entiendan qué hiciste). Además, el repo de GitHub es evidencia del trabajo de tu equipo.
+Porque tu código debe estar versionado (si algo se rompe, puedes volver atrás) y documentado (para que otros, incluido tu yo del futuro, entiendan qué hiciste). Además, el repo de GitHub es evidencia del trabajo de tu equipo.
 
 ### Estructura del repositorio
 

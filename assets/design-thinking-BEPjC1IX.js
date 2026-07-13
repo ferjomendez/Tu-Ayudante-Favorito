@@ -22,7 +22,7 @@ Ejemplo: "Los jardineros voluntarios necesitan saber el estado del suelo en tiem
 **3. Idear**
 Genera muchas ideas. No te cases con la primera. Algunas técnicas:
 - Lluvia de ideas (sin juzgar, cantidad sobre calidad).
-- "¿Cómo podríamos...?" — reformula el problema como pregunta abierta.
+- "¿Cómo podríamos...?": reformula el problema como pregunta abierta.
 - Inspírate en soluciones de otros campos.
 
 **4. Prototipar**
