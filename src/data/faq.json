@@ -32,7 +32,7 @@
         },
         {
           "question": "¿Dónde consigo componentes?",
-          "answer": "Las tiendas online de electrónica en Chile como Electronilab, AliExpress, o MercadoLibre. Coordina con tu grupo para compras conjuntas. Pregunta al ayudante antes de comprar algo caro."
+          "answer": "En el DEC (Design Engineering Center) del edificio D hay componentes disponibles. Si no tienen lo que necesitas, puedes comprar en tiendas online de electrónica en Chile como Electronilab, AliExpress, o MercadoLibre. Coordina con tu grupo para compras conjuntas y pregunta al ayudante antes de comprar algo caro."
         },
         {
           "question": "¿Y si quemo un componente?",
@@ -78,7 +78,7 @@
       "items": [
         {
           "question": "¿Qué plataforma uso para el dashboard?",
-          "answer": "Cada grupo elige. Opciones comunes: ThingSpeak (más fácil), Firebase + web app (más flexible), Blynk (app móvil), Grafana (más pro). Lo clave es que sea accesible desde internet, no un localhost."
+          "answer": "Cada grupo elige y construye su propio dashboard. Opciones comunes: ThingSpeak (más fácil, gráficos automáticos), Firebase + web app (tiempo real, más flexible), o Aiven/Supabase + Railway/Vercel (más pro, stack completo). Lo clave es que sea accesible desde internet con una URL pública, no un localhost."
         },
         {
           "question": "¿Los datos deben ser en tiempo real?",

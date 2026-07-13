@@ -51,6 +51,57 @@
   }
 }
 
+/* Tipografía del contenido markdown de los artículos */
+@layer components {
+  .article-body {
+    @apply text-[15px] leading-relaxed;
+  }
+  .article-body h2,
+  .article-body h3 {
+    @apply mb-3 mt-10 font-mono text-lg font-semibold;
+  }
+  .article-body h2:first-child,
+  .article-body h3:first-child {
+    margin-top: 0;
+  }
+  .article-body h4 {
+    @apply mb-2 mt-8 font-mono text-base font-semibold;
+  }
+  .article-body p {
+    @apply my-4;
+  }
+  .article-body ul {
+    @apply my-4 list-disc space-y-1.5 pl-5;
+  }
+  .article-body ol {
+    @apply my-4 list-decimal space-y-1.5 pl-5;
+  }
+  .article-body li > ul,
+  .article-body li > ol {
+    @apply my-1.5;
+  }
+  .article-body a {
+    @apply text-accent underline underline-offset-2;
+  }
+  .article-body blockquote {
+    @apply my-4 border-l-2 border-accent pl-4 text-muted;
+  }
+  .article-body hr {
+    @apply my-8 border-line;
+  }
+  .article-body .inline-code {
+    @apply rounded border border-line bg-raised px-1.5 py-0.5 font-mono text-[13px];
+  }
+  .article-body input[type='checkbox'] {
+    accent-color: var(--accent);
+    margin-right: 0.5rem;
+  }
+  .article-body .task-list-item {
+    list-style: none;
+    margin-left: -1.25rem;
+  }
+}
+
 /* Animación de entrada controlada por Intersection Observer */
 .reveal {
   opacity: 0;

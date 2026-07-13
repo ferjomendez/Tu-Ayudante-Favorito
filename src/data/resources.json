@@ -22,99 +22,108 @@
       "title": "Cómo definir una problemática",
       "description": "Guía para pasar de una observación general a un problema bien definido y argumentado.",
       "category": "problematica",
-      "type": "guia",
+      "type": "articulo",
       "level": "basico",
-      "url": "#"
+      "slug": "definir-problematica"
     },
     {
       "id": "design-thinking",
       "title": "Design Thinking para ingenieros",
       "description": "Metodología para empatizar con el usuario y definir el problema antes de la solución.",
       "category": "problematica",
-      "type": "guia",
+      "type": "articulo",
       "level": "basico",
-      "url": "#"
+      "slug": "design-thinking"
     },
     {
       "id": "arduino-cero",
       "title": "Arduino desde cero",
       "description": "Introducción a Arduino: IDE, conexiones básicas y tu primer programa.",
       "category": "electronica",
-      "type": "guia",
+      "type": "video",
       "level": "basico",
-      "url": "https://docs.arduino.cc/learn/starting-guide/getting-started-arduino/"
+      "url": "https://www.youtube.com/watch?v=yi29dbPnu28"
     },
     {
       "id": "esp32-wifi",
       "title": "ESP32: conectividad WiFi",
       "description": "Configurar el ESP32 para enviar datos por WiFi a tu dashboard.",
       "category": "electronica",
-      "type": "guia",
+      "type": "articulo",
       "level": "intermedio",
-      "url": "#"
+      "slug": "esp32-wifi"
     },
     {
       "id": "sensores-comunes",
       "title": "Sensores más comunes",
       "description": "Guía de sensores típicos: temperatura, ultrasonido, humedad, IR y peso.",
       "category": "electronica",
-      "type": "guia",
+      "type": "articulo",
       "level": "basico",
-      "url": "#"
+      "slug": "sensores-comunes"
     },
     {
       "id": "alimentacion-bateria",
       "title": "Alimentación con batería",
       "description": "Cómo dimensionar y conectar baterías LiPo/18650 para prototipos autónomos.",
       "category": "electronica",
-      "type": "guia",
+      "type": "articulo",
       "level": "intermedio",
-      "url": "#"
+      "slug": "alimentacion-bateria"
     },
     {
       "id": "protoboard",
       "title": "Conexiones y protoboard",
       "description": "Guía visual de cómo usar protoboard y cables dupont, y evitar errores comunes.",
       "category": "electronica",
-      "type": "guia",
+      "type": "video",
       "level": "basico",
-      "url": "#"
+      "url": "https://www.youtube.com/watch?v=wOdlHIrvi80"
     },
     {
-      "id": "placa-definitiva",
+      "id": "soldar",
       "title": "De protoboard a placa definitiva",
       "description": "Soldar en placa perforada para el prototipo final.",
       "category": "electronica",
-      "type": "guia",
+      "type": "video",
       "level": "avanzado",
-      "url": "#"
+      "url": "https://www.youtube.com/watch?v=l9Kbr8cPqOE"
     },
     {
-      "id": "prompts-codigo",
+      "id": "espnow",
+      "title": "ESP-NOW: comunicación entre ESP32",
+      "description": "Enviar datos entre dos o más ESP32 sin router WiFi, ideal para nodos distribuidos.",
+      "category": "electronica",
+      "type": "articulo",
+      "level": "intermedio",
+      "slug": "espnow"
+    },
+    {
+      "id": "prompts-efectivos",
       "title": "Prompts efectivos para código",
       "description": "Cómo escribir prompts claros para que la IA genere código útil para Arduino/ESP32.",
       "category": "ia",
-      "type": "guia",
+      "type": "articulo",
       "level": "basico",
-      "url": "#"
+      "slug": "prompts-efectivos"
     },
     {
       "id": "debugging-ia",
       "title": "Debugging con IA",
       "description": "Usar IA para entender errores, leer el serial monitor y solucionar bugs.",
       "category": "ia",
-      "type": "guia",
+      "type": "articulo",
       "level": "intermedio",
-      "url": "#"
+      "slug": "debugging-ia"
     },
     {
-      "id": "limites-ia",
+      "id": "ia-limitaciones",
       "title": "Lo que la IA no puede hacer por ti",
       "description": "Limitaciones: entender tu circuito, validar conexiones físicas, pensar el diseño.",
       "category": "ia",
-      "type": "guia",
+      "type": "articulo",
       "level": "basico",
-      "url": "#"
+      "slug": "ia-limitaciones"
     },
     {
       "id": "fusion-primeros-pasos",
@@ -123,115 +132,97 @@
       "category": "modelado3d",
       "type": "video",
       "level": "basico",
-      "url": "https://www.autodesk.com/learn/ondemand/curated/learning-fusion"
+      "url": "https://www.youtube.com/watch?v=7lKpzGtoQX0"
     },
     {
-      "id": "diseno-impresion-3d",
+      "id": "diseno-impresion3d",
       "title": "Diseño para impresión 3D",
       "description": "Tolerancias, orientación de impresión, soportes y grosor de paredes.",
       "category": "modelado3d",
-      "type": "guia",
+      "type": "video",
       "level": "intermedio",
-      "url": "#"
+      "url": "https://www.youtube.com/watch?v=1Ff_NcZhBSo"
     },
     {
       "id": "diseno-corte-laser",
       "title": "Diseño para corte láser",
       "description": "Preparar archivos DXF, compensar el kerf y diseñar ensambles finger-joint.",
       "category": "modelado3d",
-      "type": "guia",
+      "type": "video",
       "level": "intermedio",
-      "url": "#"
+      "url": "https://www.youtube.com/watch?v=xA_gh0D76A4"
     },
     {
       "id": "insertos-roscados",
       "title": "Insertos roscados para plástico",
       "description": "Tipos de insertos, cómo dimensionar el agujero e instalarlos con cautín.",
       "category": "modelado3d",
-      "type": "guia",
+      "type": "video",
       "level": "intermedio",
-      "url": "#"
+      "url": "https://www.youtube.com/watch?v=gs4SNZH0aWA"
     },
     {
-      "id": "que-todo-calce",
+      "id": "todo-calce",
       "title": "Cómo hacer que todo calce",
       "description": "Medir componentes, dejar tolerancia y diseñar soportes internos a medida.",
       "category": "modelado3d",
-      "type": "guia",
+      "type": "articulo",
       "level": "avanzado",
-      "url": "#"
+      "slug": "todo-calce"
     },
     {
       "id": "que-es-dashboard",
       "title": "¿Qué es un dashboard live?",
       "description": "Concepto: visualizar datos del prototipo en tiempo real desde cualquier lugar.",
       "category": "dashboard",
-      "type": "guia",
+      "type": "articulo",
       "level": "basico",
-      "url": "#"
+      "slug": "que-es-dashboard"
     },
     {
       "id": "thingspeak-esp32",
       "title": "ThingSpeak + ESP32",
       "description": "Enviar datos de sensores a ThingSpeak y visualizar gráficos automáticos.",
       "category": "dashboard",
-      "type": "video",
+      "type": "articulo",
       "level": "intermedio",
-      "url": "https://www.mathworks.com/help/thingspeak/getting-started-with-thingspeak.html"
+      "slug": "thingspeak-esp32"
     },
     {
-      "id": "firebase-rtdb",
+      "id": "firebase-realtime",
       "title": "Firebase Realtime Database",
       "description": "Usar Firebase para almacenar datos y crear un dashboard web propio.",
       "category": "dashboard",
-      "type": "guia",
+      "type": "articulo",
       "level": "avanzado",
-      "url": "https://firebase.google.com/docs/database?hl=es"
-    },
-    {
-      "id": "blynk-iot",
-      "title": "Blynk para prototipos IoT",
-      "description": "App móvil para visualizar datos de sensores en tiempo real.",
-      "category": "dashboard",
-      "type": "guia",
-      "level": "intermedio",
-      "url": "https://docs.blynk.io/en/"
-    },
-    {
-      "id": "grafana-cloud",
-      "title": "Grafana Cloud (gratis)",
-      "description": "Dashboard profesional conectado a diversas fuentes de datos.",
-      "category": "dashboard",
-      "type": "guia",
-      "level": "avanzado",
-      "url": "https://grafana.com/docs/grafana-cloud/"
+      "slug": "firebase-realtime"
     },
     {
       "id": "informe-tecnico",
       "title": "Cómo hacer un informe técnico",
       "description": "Estructura, redacción, diagramas y formato esperado para el informe.",
       "category": "documentacion",
-      "type": "guia",
+      "type": "articulo",
       "level": "basico",
-      "url": "#"
+      "slug": "informe-tecnico"
     },
     {
       "id": "tips-pitch",
       "title": "Tips para el pitch final",
       "description": "Estructura de presentación, storytelling técnico y demos efectivas.",
       "category": "documentacion",
-      "type": "guia",
+      "type": "articulo",
       "level": "intermedio",
-      "url": "#"
+      "slug": "tips-pitch"
     },
     {
       "id": "documentar-github",
       "title": "Documentar tu proyecto en GitHub",
       "description": "README, fotos, diagramas de conexión y código bien comentado.",
       "category": "documentacion",
-      "type": "guia",
+      "type": "articulo",
       "level": "intermedio",
-      "url": "#"
+      "slug": "documentar-github"
     }
   ]
 }

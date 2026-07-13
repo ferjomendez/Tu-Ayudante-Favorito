@@ -3,6 +3,7 @@
     { "id": "sw-electronica", "label": "Software — Electrónica" },
     { "id": "sw-3d", "label": "Software — Modelado 3D" },
     { "id": "sw-dashboard", "label": "Software — Dashboard y datos" },
+    { "id": "sw-ia", "label": "Software — IA y Machine Learning" },
     { "id": "sw-productividad", "label": "Software — Productividad" }
   ],
   "tools": [
@@ -79,6 +80,24 @@
       "url": "https://meshmixer.com/"
     },
     {
+      "id": "boxes-py",
+      "name": "Boxes.py",
+      "description": "Generador de cajas y ensambles para corte láser con parámetros personalizables",
+      "pricing": "gratis",
+      "category": "sw-3d",
+      "icon": "cube",
+      "url": "https://boxes.hackerspace-bamberg.de/?language=en"
+    },
+    {
+      "id": "makercase",
+      "name": "MakerCase",
+      "description": "Generador online de cajas para corte láser con finger joints",
+      "pricing": "gratis",
+      "category": "sw-3d",
+      "icon": "cube",
+      "url": "https://www.makercase.com/"
+    },
+    {
       "id": "thingspeak",
       "name": "ThingSpeak",
       "description": "Plataforma IoT para visualizar datos de sensores",
@@ -97,22 +116,49 @@
       "url": "https://firebase.google.com/"
     },
     {
-      "id": "blynk",
-      "name": "Blynk",
-      "description": "App para control y monitoreo IoT",
+      "id": "supabase",
+      "name": "Supabase",
+      "description": "Base de datos PostgreSQL con API REST automática (alternativa a Firebase)",
       "pricing": "freemium",
       "category": "sw-dashboard",
-      "icon": "phone",
-      "url": "https://blynk.io/"
+      "icon": "database",
+      "url": "https://supabase.com/"
     },
     {
-      "id": "grafana",
-      "name": "Grafana Cloud",
-      "description": "Dashboards profesionales",
+      "id": "aiven",
+      "name": "Aiven",
+      "description": "Base de datos PostgreSQL en la nube con tier gratuito",
       "pricing": "freemium",
       "category": "sw-dashboard",
-      "icon": "chart",
-      "url": "https://grafana.com/products/cloud/"
+      "icon": "database",
+      "url": "https://aiven.io/"
+    },
+    {
+      "id": "railway",
+      "name": "Railway",
+      "description": "Hostear backend y frontend con deploy desde GitHub",
+      "pricing": "freemium",
+      "category": "sw-dashboard",
+      "icon": "layers",
+      "url": "https://railway.app/"
+    },
+    {
+      "id": "vercel",
+      "name": "Vercel",
+      "description": "Hosting para frontends y dashboards web (deploy automático desde GitHub)",
+      "pricing": "freemium",
+      "category": "sw-dashboard",
+      "icon": "layers",
+      "url": "https://vercel.com/"
+    },
+    {
+      "id": "teachable-machine",
+      "name": "Teachable Machine",
+      "description": "Entrenar modelos de machine learning sin código (Google)",
+      "pricing": "gratis",
+      "category": "sw-ia",
+      "icon": "spark",
+      "url": "https://teachablemachine.withgoogle.com/"
     },
     {
       "id": "vscode",

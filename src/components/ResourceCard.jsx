@@ -1,7 +1,9 @@
+import { Link } from 'react-router-dom'
 import Icon from './Icons.jsx'
 
 const TYPE_META = {
   guia: { icon: 'guia', label: 'guía escrita' },
+  articulo: { icon: 'articulo', label: 'artículo' },
   video: { icon: 'video', label: 'video' },
   link: { icon: 'link', label: 'link externo' },
   descarga: { icon: 'descarga', label: 'descargable' },
@@ -25,14 +27,13 @@ const LEVEL_META = {
 export default function ResourceCard({ resource, categoryLabel }) {
   const type = TYPE_META[resource.type] ?? TYPE_META.guia
   const level = LEVEL_META[resource.level] ?? LEVEL_META.basico
+  const isInternal = resource.type === 'articulo'
 
-  return (
-    <a
-      href={resource.url}
-      target="_blank"
-      rel="noreferrer"
-      className="group flex h-full flex-col gap-3 rounded-lg border border-line bg-surface p-5 transition-colors hover:border-accent"
-    >
+  const cardClass =
+    'group flex h-full flex-col gap-3 rounded-lg border border-line bg-surface p-5 transition-colors hover:border-accent'
+
+  const body = (
+    <>
       <div className="flex items-center justify-between gap-2">
         <span
           className={`rounded px-2 py-0.5 font-mono text-[11px] ${CATEGORY_STYLES[resource.category] ?? CATEGORY_STYLES.documentacion}`}
@@ -55,11 +56,28 @@ export default function ResourceCard({ resource, categoryLabel }) {
           <span className={`h-1.5 w-1.5 rounded-full ${level.dot}`} />
           {level.label}
         </span>
-        <Icon
-          name="arrowRight"
-          className="h-4 w-4 text-muted transition-transform group-hover:translate-x-1 group-hover:text-accent"
-        />
+        <span className="flex items-center gap-1.5 font-mono text-[11px] text-muted transition-colors group-hover:text-accent">
+          {isInternal && 'leer'}
+          <Icon
+            name="arrowRight"
+            className="h-4 w-4 transition-transform group-hover:translate-x-1"
+          />
+        </span>
       </div>
+    </>
+  )
+
+  // Los artículos navegan a la vista interna; el resto abre en nueva pestaña.
+  if (isInternal) {
+    return (
+      <Link to={`/articulo/${resource.slug}`} className={cardClass}>
+        {body}
+      </Link>
+    )
+  }
+  return (
+    <a href={resource.url} target="_blank" rel="noreferrer" className={cardClass}>
+      {body}
     </a>
   )
 }

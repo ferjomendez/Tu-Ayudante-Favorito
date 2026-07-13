@@ -1,28 +1,29 @@
 import Icon from './Icons.jsx'
 import Reveal from './Reveal.jsx'
+import SectionLink from './SectionLink.jsx'
 import Terminal from './Terminal.jsx'
 
 const QUICK_LINKS = [
   {
-    href: '#flujo',
+    to: 'flujo',
     icon: 'branch',
     label: 'flujo del proyecto',
     text: 'Las 8 etapas del semestre, del problema al DemoDay',
   },
   {
-    href: '#recursos',
+    to: 'recursos',
     icon: 'guia',
     label: 'recursos',
-    text: 'Guías y videos organizados por etapa del proyecto',
+    text: 'Guías, artículos y videos organizados por etapa del proyecto',
   },
   {
-    href: '#herramientas',
+    to: 'herramientas',
     icon: 'chip',
     label: 'herramientas',
     text: 'Software para electrónica, 3D, dashboards y más',
   },
   {
-    href: '#faq',
+    to: 'faq',
     icon: 'terminal',
     label: 'faq + tips',
     text: 'Respuestas a las dudas más comunes del taller',
@@ -55,9 +56,9 @@ export default function Hero() {
 
       <div className="mt-14 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
         {QUICK_LINKS.map((card, i) => (
-          <Reveal key={card.href} delay={i * 80} className="h-full">
-            <a
-              href={card.href}
+          <Reveal key={card.to} delay={i * 80} className="h-full">
+            <SectionLink
+              to={card.to}
               className="group flex h-full flex-col gap-3 rounded-lg border border-line bg-surface p-5 transition-colors hover:border-accent"
             >
               <div className="flex items-center justify-between text-muted">
@@ -71,7 +72,7 @@ export default function Hero() {
                 ./{card.label}
               </h2>
               <p className="text-sm text-muted">{card.text}</p>
-            </a>
+            </SectionLink>
           </Reveal>
         ))}
       </div>

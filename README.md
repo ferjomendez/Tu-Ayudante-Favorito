@@ -21,16 +21,23 @@ Todo el contenido vive en `src/data/`:
 | `faq.json` | Preguntas frecuentes agrupadas por tema |
 | `tips.json` | Callouts de tips del ayudante |
 | `flow.json` | Las 8 etapas del flujo del semestre |
+| `articles/*.md` | Contenido de los artículos internos (markdown) |
 
 Para agregar un recurso, copia un objeto existente en `resources.json` y cambia sus
 campos. Valores válidos:
 
-- `type`: `guia` · `video` · `link` · `descarga`
+- `type`: `articulo` · `guia` · `video` · `link` · `descarga`
 - `level`: `basico` · `intermedio` · `avanzado`
 - `category`: uno de los ids en `categories` del mismo archivo
 
-Los recursos con `"url": "#"` son guías propias del taller pendientes de publicar —
-reemplaza el `#` por el link real cuando estén listas.
+### Artículos internos
+
+Los recursos con `"type": "articulo"` no llevan `url`; llevan `"slug"` y abren una
+página interna en `/#/articulo/<slug>`. El contenido vive en
+`src/data/articles/<slug>.md` (markdown estándar; los bloques de código con
+` ```cpp ` o ` ```javascript ` se muestran con syntax highlighting). Para agregar un
+artículo nuevo: crea el `.md` en esa carpeta y agrega el recurso en `resources.json`
+con el mismo slug.
 
 ## Deploy a GitHub Pages
 
