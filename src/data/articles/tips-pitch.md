@@ -14,7 +14,7 @@ Presenta la problemática de forma clara y visual. Usa datos, fotos de terreno, 
 Explica tu propuesta. Diagrama de cómo funciona. No entres en detalles técnicos profundos aún.
 
 **4. Demo en vivo (3-4 minutos)**
-Muestra el prototipo funcionando. Muestra el dashboard con datos reales. Este es el momento más importante — si funciona, impacta.
+Muestra el prototipo funcionando. Muestra el dashboard con datos reales. Este es el momento más importante: si funciona, impacta.
 
 **5. Desarrollo técnico (2-3 minutos)**
 Ahora sí, explica brevemente las decisiones técnicas. No leas código en la pantalla. Muestra diagramas de conexión, el modelo 3D, la arquitectura del sistema.

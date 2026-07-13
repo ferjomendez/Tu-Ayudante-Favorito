@@ -37,9 +37,9 @@ Para aumentar la duración:
 ### Circuito básico con 18650
 
 Necesitas:
-1. **Portapilas para 18650** — donde va la batería.
-2. **Módulo TP4056** — para cargar la batería por micro-USB.
-3. **Regulador de voltaje** — si tu circuito necesita un voltaje estable. Muchas placas ESP32 tienen regulador integrado y aceptan alimentación por el pin VIN (hasta ~12V).
+1. **Portapilas para 18650**: donde va la batería.
+2. **Módulo TP4056**: para cargar la batería por micro-USB.
+3. **Regulador de voltaje**: si tu circuito necesita un voltaje estable. Muchas placas ESP32 tienen regulador integrado y aceptan alimentación por el pin VIN (hasta ~12V).
 
 Conexión simple:
 - Batería → TP4056 (para carga).

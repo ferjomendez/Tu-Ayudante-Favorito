@@ -1,10 +1,10 @@
 {
   "categories": [
-    { "id": "sw-electronica", "label": "Software — Electrónica" },
-    { "id": "sw-3d", "label": "Software — Modelado 3D" },
-    { "id": "sw-dashboard", "label": "Software — Dashboard y datos" },
-    { "id": "sw-ia", "label": "Software — IA y Machine Learning" },
-    { "id": "sw-productividad", "label": "Software — Productividad" }
+    { "id": "sw-electronica", "label": "Software · Electrónica" },
+    { "id": "sw-3d", "label": "Software · Modelado 3D" },
+    { "id": "sw-dashboard", "label": "Software · Dashboard y datos" },
+    { "id": "sw-ia", "label": "Software · IA y Machine Learning" },
+    { "id": "sw-productividad", "label": "Software · Productividad" }
   ],
   "tools": [
     {

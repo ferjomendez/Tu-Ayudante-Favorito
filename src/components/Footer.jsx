@@ -7,8 +7,8 @@ export default function Footer() {
     <footer className="border-t border-line">
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-3 px-4 py-8 font-mono text-xs text-muted sm:flex-row sm:px-6">
         <p>
-          <span className="text-accent">❯</span> Hecho por Fernando Méndez — Taller de
-          Diseño en Ingeniería — UAI 2026
+          <span className="text-accent">❯</span> Hecho por Fernando Méndez · Taller de
+          Diseño en Ingeniería · UAI 2026
         </p>
         <a
           href={REPO_URL}

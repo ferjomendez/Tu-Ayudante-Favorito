@@ -6,10 +6,10 @@ Una problemática no es simplemente "algo que está mal". Es una situación conc
 
 Muchos grupos empiezan pensando "quiero hacer un robot que mida la calidad del aire" y luego buscan un ODS que justifique su idea. Esto es al revés. El proceso correcto es:
 
-1. **Observar** — Sal a mirar. ¿Qué problemas ves en tu entorno? ¿En tu universidad, barrio, casa, comunidad?
-2. **Investigar** — ¿Este problema afecta a más personas? ¿Hay datos que lo respalden?
-3. **Definir** — Escríbelo en una oración clara: "Las personas [quiénes] enfrentan [qué problema] en [dónde/cuándo], lo que provoca [consecuencia]."
-4. **Conectar con un ODS** — ¿A cuál de los 17 objetivos se relaciona tu problema?
+1. **Observar**: Sal a mirar. ¿Qué problemas ves en tu entorno? ¿En tu universidad, barrio, casa, comunidad?
+2. **Investigar**: ¿Este problema afecta a más personas? ¿Hay datos que lo respalden?
+3. **Definir**: Escríbelo en una oración clara: "Las personas [quiénes] enfrentan [qué problema] en [dónde/cuándo], lo que provoca [consecuencia]."
+4. **Conectar con un ODS**: ¿A cuál de los 17 objetivos se relaciona tu problema?
 
 ### Cómo saber si tu problemática es buena
 

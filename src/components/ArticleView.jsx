@@ -78,9 +78,9 @@ export default function ArticleView() {
   }, [slug, loader])
 
   useEffect(() => {
-    if (meta) document.title = `${meta.title} — Taller de Diseño en Ingeniería`
+    if (meta) document.title = `${meta.title} · Taller de Diseño en Ingeniería`
     return () => {
-      document.title = 'Taller de Diseño en Ingeniería — Recursos'
+      document.title = 'Taller de Diseño en Ingeniería · Recursos'
     }
   }, [meta])
 

@@ -1,7 +1,7 @@
-# Taller de Diseño en Ingeniería — Recursos
+# Taller de Diseño en Ingeniería · Recursos
 
 Single-page app con recursos, herramientas y FAQ para los estudiantes del Taller de
-Diseño en Ingeniería (UAI, Sección 2 — Semestre 2026/1).
+Diseño en Ingeniería (UAI, Sección 2, Semestre 2026/1).
 
 ## Desarrollo local
 

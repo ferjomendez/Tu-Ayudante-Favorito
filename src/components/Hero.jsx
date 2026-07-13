@@ -36,8 +36,8 @@ export default function Hero() {
       <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-14">
         <Reveal>
           <p className="mb-4 font-mono text-sm text-muted">
-            ~/uai <span className="text-accent">·</span> Sección 2 —{' '}
-            Semestre 2026/1
+            ~/uai <span className="text-accent">·</span> Sección 2{' '}
+            <span className="text-accent">·</span> Semestre 2026/1
           </p>
           <h1 className="font-mono text-4xl font-bold leading-tight tracking-tight sm:text-5xl">
             Taller de Diseño en{' '}

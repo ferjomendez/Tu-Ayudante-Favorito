@@ -140,7 +140,7 @@ void loop() {}
 
 ### Tips
 
-- La MAC address es única para cada ESP32 — anótala.
+- La MAC address es única para cada ESP32; anótala.
 - Ambos ESP32 deben usar la misma estructura de datos (`struct`), con los mismos tipos y orden.
 - Si combinas ESP-NOW con WiFi en el mismo ESP32, ambos deben usar el mismo canal WiFi.
 - Para transmisión uno-a-muchos (broadcast), usa la MAC `FF:FF:FF:FF:FF:FF`.

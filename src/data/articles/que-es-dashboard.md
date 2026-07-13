@@ -4,13 +4,13 @@ Un dashboard es una página web (o app) que muestra los datos que tu prototipo r
 
 ### ¿Por qué lo necesitas?
 
-Porque tu prototipo mide cosas (temperatura, distancia, humedad, peso, etc.) y esas mediciones deben ser visibles para demostrar que tu solución funciona. Además, el dashboard debe ser accesible desde cualquier dispositivo con internet — no vale un localhost que solo funciona en tu computador.
+Porque tu prototipo mide cosas (temperatura, distancia, humedad, peso, etc.) y esas mediciones deben ser visibles para demostrar que tu solución funciona. Además, el dashboard debe ser accesible desde cualquier dispositivo con internet; no vale un localhost que solo funciona en tu computador.
 
 ### Componentes de un dashboard
 
-1. **El prototipo (ESP32/Arduino)** — Lee los sensores y envía los datos.
-2. **Un servidor/base de datos** — Recibe y almacena los datos. Puede ser Aiven (PostgreSQL en la nube), Firebase, Supabase, o cualquier base de datos accesible por internet.
-3. **Una aplicación web** — Muestra los datos con gráficos. Puede estar hosteada en Railway, Vercel, Render, GitHub Pages (si es estática), o cualquier servicio que dé una URL pública.
+1. **El prototipo (ESP32/Arduino)**: Lee los sensores y envía los datos.
+2. **Un servidor/base de datos**: Recibe y almacena los datos. Puede ser Aiven (PostgreSQL en la nube), Firebase, Supabase, o cualquier base de datos accesible por internet.
+3. **Una aplicación web**: Muestra los datos con gráficos. Puede estar hosteada en Railway, Vercel, Render, GitHub Pages (si es estática), o cualquier servicio que dé una URL pública.
 
 ### Flujo de datos
 
@@ -23,7 +23,7 @@ El ESP32 hace un HTTP POST con los datos del sensor. El servidor los guarda. El 
 ### ¿Qué debe mostrar tu dashboard?
 
 Mínimo:
-- Valor actual del sensor en tiempo real (o casi — cada 10-30 segundos está bien).
+- Valor actual del sensor en tiempo real (o casi: cada 10-30 segundos está bien).
 - Gráfico histórico (cómo ha cambiado el valor en el tiempo).
 - Indicador de estado (¿el prototipo está conectado o no?).
 
