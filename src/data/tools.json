@@ -1,0 +1,154 @@
+{
+  "categories": [
+    { "id": "sw-electronica", "label": "Software — Electrónica" },
+    { "id": "sw-3d", "label": "Software — Modelado 3D" },
+    { "id": "sw-dashboard", "label": "Software — Dashboard y datos" },
+    { "id": "sw-productividad", "label": "Software — Productividad" }
+  ],
+  "tools": [
+    {
+      "id": "arduino-ide",
+      "name": "Arduino IDE",
+      "description": "Programar placas Arduino y ESP32",
+      "pricing": "gratis",
+      "category": "sw-electronica",
+      "icon": "chip",
+      "url": "https://www.arduino.cc/en/software"
+    },
+    {
+      "id": "platformio",
+      "name": "PlatformIO",
+      "description": "IDE avanzado para microcontroladores (extensión de VS Code)",
+      "pricing": "gratis",
+      "category": "sw-electronica",
+      "icon": "terminal",
+      "url": "https://platformio.org/"
+    },
+    {
+      "id": "fritzing",
+      "name": "Fritzing",
+      "description": "Diagramas de circuito y protoboard visuales",
+      "pricing": "freemium",
+      "category": "sw-electronica",
+      "icon": "circuit",
+      "url": "https://fritzing.org/"
+    },
+    {
+      "id": "wokwi",
+      "name": "Wokwi",
+      "description": "Simulador online de Arduino y ESP32",
+      "pricing": "gratis",
+      "category": "sw-electronica",
+      "icon": "play",
+      "url": "https://wokwi.com/"
+    },
+    {
+      "id": "tinkercad",
+      "name": "Tinkercad Circuits",
+      "description": "Simulador de circuitos para principiantes",
+      "pricing": "gratis",
+      "category": "sw-electronica",
+      "icon": "circuit",
+      "url": "https://www.tinkercad.com/circuits"
+    },
+    {
+      "id": "fusion360",
+      "name": "Fusion 360",
+      "description": "CAD profesional para diseño mecánico",
+      "pricing": "licencia edu",
+      "category": "sw-3d",
+      "icon": "cube",
+      "url": "https://www.autodesk.com/products/fusion-360/education"
+    },
+    {
+      "id": "cura",
+      "name": "Ultimaker Cura",
+      "description": "Preparar modelos para impresión 3D (slicer)",
+      "pricing": "gratis",
+      "category": "sw-3d",
+      "icon": "layers",
+      "url": "https://ultimaker.com/software/ultimaker-cura/"
+    },
+    {
+      "id": "meshmixer",
+      "name": "Meshmixer",
+      "description": "Reparar y editar mallas STL",
+      "pricing": "gratis",
+      "category": "sw-3d",
+      "icon": "mesh",
+      "url": "https://meshmixer.com/"
+    },
+    {
+      "id": "thingspeak",
+      "name": "ThingSpeak",
+      "description": "Plataforma IoT para visualizar datos de sensores",
+      "pricing": "freemium",
+      "category": "sw-dashboard",
+      "icon": "chart",
+      "url": "https://thingspeak.mathworks.com/"
+    },
+    {
+      "id": "firebase",
+      "name": "Firebase",
+      "description": "Base de datos en tiempo real de Google",
+      "pricing": "freemium",
+      "category": "sw-dashboard",
+      "icon": "database",
+      "url": "https://firebase.google.com/"
+    },
+    {
+      "id": "blynk",
+      "name": "Blynk",
+      "description": "App para control y monitoreo IoT",
+      "pricing": "freemium",
+      "category": "sw-dashboard",
+      "icon": "phone",
+      "url": "https://blynk.io/"
+    },
+    {
+      "id": "grafana",
+      "name": "Grafana Cloud",
+      "description": "Dashboards profesionales",
+      "pricing": "freemium",
+      "category": "sw-dashboard",
+      "icon": "chart",
+      "url": "https://grafana.com/products/cloud/"
+    },
+    {
+      "id": "vscode",
+      "name": "VS Code",
+      "description": "Editor de código principal",
+      "pricing": "gratis",
+      "category": "sw-productividad",
+      "icon": "terminal",
+      "url": "https://code.visualstudio.com/"
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "description": "Control de versiones y hosting de código",
+      "pricing": "gratis",
+      "category": "sw-productividad",
+      "icon": "branch",
+      "url": "https://github.com/"
+    },
+    {
+      "id": "ia-asistentes",
+      "name": "Claude / ChatGPT",
+      "description": "IA para ayuda con código y debugging",
+      "pricing": "freemium",
+      "category": "sw-productividad",
+      "icon": "spark",
+      "url": "https://claude.ai/"
+    },
+    {
+      "id": "overleaf",
+      "name": "Overleaf",
+      "description": "Editor LaTeX online para informes",
+      "pricing": "freemium",
+      "category": "sw-productividad",
+      "icon": "doc",
+      "url": "https://www.overleaf.com/"
+    }
+  ]
+}

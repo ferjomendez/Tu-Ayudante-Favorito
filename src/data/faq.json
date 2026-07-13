@@ -1,0 +1,90 @@
+{
+  "groups": [
+    {
+      "id": "proyecto",
+      "label": "Sobre el proyecto",
+      "items": [
+        {
+          "question": "¿Puedo elegir cualquier ODS?",
+          "answer": "Sí, cualquiera de los 17. Lo importante es que el problema que identifiques sea real, te afecte o lo puedas observar directamente, y que tu solución tecnológica tenga sentido para abordarlo."
+        },
+        {
+          "question": "¿Primero pienso en la solución o en el problema?",
+          "answer": "SIEMPRE primero el problema. El error más común es querer hacer un robot cool y luego buscar un problema que justifique hacerlo. El proceso correcto es: observar → identificar problema → proponer solución."
+        },
+        {
+          "question": "¿El prototipo tiene que funcionar de verdad?",
+          "answer": "Sí. Debe cumplir con lo que propusieron, ser autónomo (idealmente con batería), recopilar datos reales y mostrarlos en un dashboard accesible online."
+        }
+      ]
+    },
+    {
+      "id": "electronica",
+      "label": "Sobre electrónica",
+      "items": [
+        {
+          "question": "¿Arduino o ESP32?",
+          "answer": "Depende de tu proyecto. Si necesitas WiFi para enviar datos a un dashboard (que es lo más probable), ESP32. Si tu proyecto es más simple y no necesita conectividad, Arduino Uno o Nano. También puedes usar ambos."
+        },
+        {
+          "question": "¿Necesito saber programar?",
+          "answer": "No se espera que sepas desde antes. Vas a aprender en el taller con ayuda del ayudante, el profe, y usando IA como herramienta. Lo importante es entender qué hace tu código, no copiarlo a ciegas."
+        },
+        {
+          "question": "¿Dónde consigo componentes?",
+          "answer": "Las tiendas online de electrónica en Chile como Electronilab, AliExpress, o MercadoLibre. Coordina con tu grupo para compras conjuntas. Pregunta al ayudante antes de comprar algo caro."
+        },
+        {
+          "question": "¿Y si quemo un componente?",
+          "answer": "Pasa. Es parte de aprender. Por eso se trabaja primero en protoboard antes de soldar nada definitivo. Siempre ten extras de los componentes críticos."
+        }
+      ]
+    },
+    {
+      "id": "ia",
+      "label": "Sobre IA",
+      "items": [
+        {
+          "question": "¿Puedo usar IA para todo el código?",
+          "answer": "Puedes usar IA como herramienta, pero debes entender lo que genera. Un buen prompt describe exactamente qué sensor usas, cómo está conectado, y qué quieres que haga. Un mal prompt es 'hazme el código del proyecto'. La IA no conoce tu circuito físico."
+        },
+        {
+          "question": "¿Qué IA recomiendan?",
+          "answer": "Claude o ChatGPT. Lo importante no es cuál, sino cómo la usas. Sé específico en tus prompts: incluye el microcontrolador, pines, sensor, y el comportamiento esperado."
+        }
+      ]
+    },
+    {
+      "id": "modelado3d",
+      "label": "Sobre modelado 3D",
+      "items": [
+        {
+          "question": "¿Qué software uso?",
+          "answer": "Fusion 360 con licencia educativa gratuita. Es el estándar del taller."
+        },
+        {
+          "question": "¿Puedo hacer la carcasa en cartón?",
+          "answer": "Para el prototipo final se espera impresión 3D o corte láser. Cartón está bien para mockups iniciales, pero no para la entrega final."
+        },
+        {
+          "question": "¿Cómo hago que los componentes queden fijos?",
+          "answer": "Usa insertos roscados, snap-fits, o soportes diseñados a medida en el modelo 3D. Mide bien cada componente y deja tolerancia (~0.3mm para impresión 3D)."
+        }
+      ]
+    },
+    {
+      "id": "dashboard",
+      "label": "Sobre el dashboard",
+      "items": [
+        {
+          "question": "¿Qué plataforma uso para el dashboard?",
+          "answer": "Cada grupo elige. Opciones comunes: ThingSpeak (más fácil), Firebase + web app (más flexible), Blynk (app móvil), Grafana (más pro). Lo clave es que sea accesible desde internet, no un localhost."
+        },
+        {
+          "question": "¿Los datos deben ser en tiempo real?",
+          "answer": "Idealmente sí, o al menos que se actualicen periódicamente. El dashboard debe mostrar los datos que tu prototipo recopila con gráficos claros."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "steps": [
+    {
+      "title": "Problemática + ODS",
+      "text": "Observa, investiga y define un problema real conectado a un ODS."
+    },
+    {
+      "title": "Propuesta de solución",
+      "text": "Diseña una solución tecnológica al problema. Primero el problema, después la solución."
+    },
+    {
+      "title": "Electrónica",
+      "text": "Arma el prototipo: microcontrolador, sensores, actuadores y conexiones."
+    },
+    {
+      "title": "IA como herramienta",
+      "text": "Aprende a escribir prompts exactos para código y debugging, entendiendo lo que genera."
+    },
+    {
+      "title": "Modelado 3D",
+      "text": "Diseña la carcasa en Fusion 360 para impresión 3D o corte láser. Todo debe calzar."
+    },
+    {
+      "title": "Prototipo final",
+      "text": "Autónomo (batería interna), cumple lo propuesto, recopila y almacena datos."
+    },
+    {
+      "title": "Dashboard live",
+      "text": "Muestra los datos con gráficos, accesible desde cualquier lugar (no localhost)."
+    },
+    {
+      "title": "Pitch + DemoDay",
+      "text": "Presenta tu proyecto. El mejor grupo de cada sección pasa a la ronda de selección."
+    }
+  ]
+}

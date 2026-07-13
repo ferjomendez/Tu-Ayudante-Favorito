@@ -1,0 +1,24 @@
+{
+  "tips": [
+    {
+      "title": "Mide dos veces, imprime una vez",
+      "text": "Verifica las dimensiones de todos los componentes antes de modelar la carcasa."
+    },
+    {
+      "title": "Versiona tu código",
+      "text": "Usa GitHub desde el día 1. Cuando algo deje de funcionar, vas a agradecer poder volver atrás."
+    },
+    {
+      "title": "La IA no conoce tu circuito",
+      "text": "Siempre incluye en el prompt: qué placa usas, qué pines, qué sensor, y qué comportamiento esperas."
+    },
+    {
+      "title": "Prototipa en cartón primero",
+      "text": "Antes de imprimir 3D, arma un mockup en cartón para validar tamaños y distribución de componentes."
+    },
+    {
+      "title": "Documenta mientras avanzas",
+      "text": "No dejes la documentación para el final. Fotos, diagramas y notas durante el proceso valen oro."
+    }
+  ]
+}
