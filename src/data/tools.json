@@ -53,6 +53,24 @@
       "url": "https://www.tinkercad.com/circuits"
     },
     {
+      "id": "awesome-electronics",
+      "name": "Awesome Electronics",
+      "description": "Lista curada de recursos, tutoriales y herramientas para electrónica",
+      "pricing": "gratis",
+      "category": "sw-electronica",
+      "icon": "circuit",
+      "url": "https://github.com/kitspace/awesome-electronics"
+    },
+    {
+      "id": "awesome-open-hardware",
+      "name": "Awesome Open Hardware",
+      "description": "Colección de proyectos de hardware abierto para inspiración",
+      "pricing": "gratis",
+      "category": "sw-electronica",
+      "icon": "chip",
+      "url": "https://github.com/delftopenhardware/awesome-open-hardware"
+    },
+    {
       "id": "fusion360",
       "name": "Fusion 360",
       "description": "CAD profesional para diseño mecánico",
@@ -195,6 +213,33 @@
       "category": "sw-productividad",
       "icon": "doc",
       "url": "https://www.overleaf.com/"
+    },
+    {
+      "id": "build-your-own-x",
+      "name": "Build Your Own X",
+      "description": "Tutoriales paso a paso para construir tecnologías desde cero",
+      "pricing": "gratis",
+      "category": "sw-productividad",
+      "icon": "layers",
+      "url": "https://github.com/codecrafters-io/build-your-own-x"
+    },
+    {
+      "id": "public-apis",
+      "name": "Public APIs",
+      "description": "Lista de APIs públicas gratuitas para usar en tus proyectos y dashboards",
+      "pricing": "gratis",
+      "category": "sw-productividad",
+      "icon": "database",
+      "url": "https://github.com/public-apis/public-apis"
+    },
+    {
+      "id": "markitdown",
+      "name": "Markitdown (click derecho)",
+      "description": "Convierte cualquier archivo a Markdown con click derecho en Windows",
+      "pricing": "gratis",
+      "category": "sw-productividad",
+      "icon": "doc",
+      "url": "https://github.com/ferjomendez/Markitdown-con-click-derecho"
     }
   ]
 }

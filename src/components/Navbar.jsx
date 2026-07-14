@@ -16,8 +16,8 @@ export default function Navbar({ theme, onToggleTheme }) {
     <header className="sticky top-0 z-50 border-b border-line bg-base/85 backdrop-blur">
       <nav className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6">
         <SectionLink to="inicio" className="font-mono text-sm font-medium">
-          <span className="text-accent">❯</span> taller_diseno
-          <span className="text-muted">.uai</span>
+          <span className="text-accent">❯</span> fer
+          <span className="text-muted">.ayudante</span>
         </SectionLink>
 
         <div className="flex items-center gap-1">
