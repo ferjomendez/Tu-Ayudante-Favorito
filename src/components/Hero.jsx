@@ -40,13 +40,25 @@ export default function Hero() {
             <span className="text-accent">·</span> Semestre 2026/1
           </p>
           <h1 className="font-mono text-4xl font-bold leading-tight tracking-tight sm:text-5xl">
-            Taller de Diseño en{' '}
-            <span className="text-accent">Ingeniería</span>
+            Tu Ayudante{' '}
+            <span className="text-accent">Favorito</span>
           </h1>
           <p className="mt-5 max-w-lg text-lg text-muted">
-            Recursos y herramientas para tu proyecto semestral: del problema real al
-            prototipo funcionando con datos en vivo.
+            Soy Fer, estudiante de Ingeniería Civil Informática e Industrial, y
+            ayudante del Taller de Diseño en Ingeniería. Esta página tiene todo lo
+            que necesitas para tu proyecto semestral: guías, herramientas, tips y
+            respuestas a las dudas más comunes.
           </p>
+          <div className="mt-5 flex flex-col gap-2">
+            <p className="flex items-start gap-2 text-sm text-muted">
+              <span className="mt-0.5 font-mono text-accent">→</span>
+              Siempre intentaré estar presente en todas las clases.
+            </p>
+            <p className="flex items-start gap-2 text-sm text-muted">
+              <span className="mt-0.5 font-mono text-accent">→</span>
+              Pueden contactarme cuando quieran, o juntarnos a trabajar en su proyecto.
+            </p>
+          </div>
         </Reveal>
 
         <Reveal delay={150}>
