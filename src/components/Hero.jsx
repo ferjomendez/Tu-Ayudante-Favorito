@@ -44,7 +44,7 @@ export default function Hero() {
             <span className="text-accent">Favorito</span>
           </h1>
           <p className="mt-5 max-w-lg text-lg text-muted">
-            Soy Fernando Méndez, estudiante de Ingeniería Civil Informática e Industrial, y
+            Soy Fer, estudiante de Ingeniería Civil Informática e Industrial, y
             ayudante del Taller de Diseño en Ingeniería. Esta página tiene todo lo
             que necesitas para tu proyecto semestral: guías, herramientas, tips y
             respuestas a las dudas más comunes.
