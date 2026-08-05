@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 
 const LINES = [
-  'initializing taller_diseno_2026s1...',
+  'initializing taller_diseno_2026s2...',
   'loading recursos [████████████] done',
   'connecting sensores... OK',
   'building prototipo... en progreso',
